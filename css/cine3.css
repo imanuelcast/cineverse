@@ -1,0 +1,149 @@
+/* RESET */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+
+  /* BACKGROUND + OVERLAY GELAP */
+  background: 
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url('../images/500.jpg');
+  background-size: cover;
+  background-position: center;
+
+  color: #fff;
+}
+
+/* CONTAINER */
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+/* HEADER MOVIE */
+.movie-header {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+  align-items: flex-start;
+}
+
+.poster {
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.7);
+  transition: 0.3s;
+}
+
+.poster:hover {
+  transform: scale(1.03);
+}
+
+/* INFO */
+.movie-info h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.meta {
+  color: #aaa;
+  margin-top: 5px;
+}
+
+.rating {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+/* BUTTON */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-watch {
+  background-color: #e50914;
+  color: white;
+}
+
+.btn-watch:hover {
+  background-color: #ff1f2f;
+}
+
+.btn-fav {
+  background-color: #333;
+  color: white;
+}
+
+.btn-fav:hover {
+  background-color: #555;
+}
+
+/* SECTION */
+.section {
+  margin-top: 30px;
+}
+
+.section h2 {
+  border-bottom: 2px solid #e50914;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* LIST */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* REKOMENDASI */
+.recommendation {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 120px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.card img:hover {
+  transform: scale(1.08);
+}
+
+/* BUTTON DASHBOARD */
+.btn-dashboard {
+  background-color: #333;
+  color: white;
+}
+
+.btn-dashboard:hover {
+  background-color: #555;
+}
+
+/* BUTTON DETAIL */
+.btn-detail {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #e50914;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-detail:hover {
+  background-color: #ff1f2f;
+}
